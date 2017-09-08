@@ -1,0 +1,137 @@
+/* ======================================================================
+                        Base Styles (320px)
+========================================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat;
+  text-align: center;
+  /*letter-spacing: 0.1em;*/
+  line-height: 1.4em;
+  color: #525151;
+  /*background-color: #f4f4f4;*/
+  background-color: #f5f5f5;
+}
+
+header {
+  /*background-color: #f4f4f4;*/
+}
+
+.intro {
+  font-size: 0.9em;
+  padding-top: 0.5em;
+  padding-bottom: 1.5em;
+  max-width: 95%;
+}
+
+.portfolio {
+  background-color: white;
+}
+
+h1 {
+  font-size: 1em;
+  padding: 2em;
+}
+
+.portfolio h2 {
+  font-weight: normal;
+  font-size: 1.3em;
+}
+
+.portfolio p {
+  /*max-width: 95%;*/
+
+  font-size: 0.9em;
+  /*padding-top: 0em;*/
+  padding-bottom: 1em;
+  /*max-width: 95%;*/
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #525151;
+}
+
+/*p,
+h1,
+h2,
+h3 {
+  text-align: center;
+}*/
+
+.nav li {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.4em;
+  margin: 0.4em;
+}
+
+.nav li[class="name"] {
+  /*font-weight: 900;*/
+  font-size: 1.6em;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.nav li:not([class="name"]) {
+  background-color: white;
+}
+
+.phone,
+.email {
+  font-weight: bold;
+}
+
+/* IMAGES*/
+
+.profile-image {
+  max-width: 60%;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  align-self: center;
+}
+
+.portfolio img {
+  max-width: 90%;
+}
+
+/* FLEXBOX */
+
+.wrapper,
+.main-header {
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+}
+
+
+
+
+
+
+
+
+
+
+/* ======================================================================
+                        Medium Size: 768px Media Query
+========================================================================= */
+
+
+
+/* ======================================================================
+                        Medium Size: 1024px Media Query
+========================================================================= */
