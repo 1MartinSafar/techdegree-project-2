@@ -82,7 +82,7 @@ h3 {
 }
 
 ul {
-  margin: 0;
+  /*margin: 0;*/
   padding: 0;
 }
 
@@ -154,10 +154,10 @@ h3 {
 
 /* BOTTOM NAV */
 
-.nav-bottom {
+.bottom-nav {
   font-weight: bold;
   /*font-size: 1em;*/
-  border-top: 1px solid #ebecec;
+  /*border-top: 1px solid #ebecec;*/
   border-top: 1px solid #dddddd;
   margin-left: 0.5em;
   margin-right: 0.5em;
@@ -165,8 +165,32 @@ h3 {
   padding-bottom: 1em;
 }
 
+.nav-old li,
+.nav-new li {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.nav-old ul,
+.nav-new ul {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.nav-old,
+.nav-new {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.nav-new {
+  display: none;
+  /*visibility: hidden;*/
+}
+
 .back {
   font-size: 0.8em;
+  vertical-align: center;
   /*background-color: lime;*/
 }
 
@@ -179,7 +203,7 @@ h3 {
   /*align-items: center;*/
 }
 
-.nav-bottom {
+.bottom-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between
@@ -206,14 +230,31 @@ h3 {
     flex-direction: row-reverse;
   }
 
-  .intro {
+  .intro,
+  .info {
     font-size: 1.1em;
     text-align: left;
     letter-spacing: 0.5px;
+    line-height: 1.35em;
     padding-top: 2em;
     padding-left: 1.5em;
     padding-right: 0.1em;
     margin-top: 0;
+  }
+
+  .info {
+    /*font-size: 100px;*/
+    width: 75%;
+    text-align: center;
+    padding-top: 1em;
+    /*align-self: center;*/
+    /*background-color: lime;*/
+  }
+
+  .contact p,
+  .phone,
+  .email {
+    font-size: 1.1em;
   }
 
   .profile-image {
@@ -227,13 +268,48 @@ h3 {
     margin-top: 2em;
   }
 
-  /*.profile-image {
-    max-width: 70%;
-    margin-top: 1.75em;
-    margin-bottom: 0.5em;
-    align-self: center;
-  }*/
+  .items {
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    flex-wrap: wrap;
+    /*align-content: center;*/
+    /*justify-content: center;*/
 
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .col {
+    flex: 1 50%;
+  }
+
+  .portfolio img {
+    max-width: 95%;
+  }
+
+  .portfolio p {
+    padding-bottom: 2em;
+    padding-left: 2.6em;
+    padding-right: 2.6em;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Changing bottom navigation */
+  .back {
+    visibility: hidden;
+  }
+
+  .new-nav {
+    display: inline;
+    font-size: 0.9em;
+    /*visibility: hidden;*/
+  }
 
 }
 
