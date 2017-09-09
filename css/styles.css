@@ -255,6 +255,7 @@ h3 {
   .phone,
   .email {
     font-size: 1.1em;
+    letter-spacing: 0.2px;
   }
 
   .profile-image {
@@ -305,10 +306,20 @@ h3 {
     visibility: hidden;
   }
 
-  .new-nav {
-    display: inline;
-    font-size: 0.9em;
+  .bottom-nav {
+    padding-top: 0.5em;
+    padding-bottom: 3em;
+  }
+
+  .nav-new {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8em;
     /*visibility: hidden;*/
+  }
+
+  .nav-new li:nth-child(n+1) {
+    margin-left: 1.5em;
   }
 
 }
