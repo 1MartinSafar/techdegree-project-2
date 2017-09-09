@@ -191,25 +191,55 @@ h3 {
 
 @media (min-width: 768px) {
 
-
-
-  /*.nav {
+  .nav {
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
 
-  .name {
-    display: block;*/
-  }
-
-  /*.nav li:not([class="name"]) {
+  .nav li {
     background-color: transparent;
+  }
+
+  .introduction {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .intro {
+    font-size: 1.1em;
+    text-align: left;
+    letter-spacing: 0.5px;
+    padding-top: 2em;
+    padding-left: 1.5em;
+    padding-right: 0.1em;
+    margin-top: 0;
+  }
+
+  .profile-image {
+    max-width: 40%;
+    padding: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0;
+    padding-bottom: 3em;
+
+    margin-top: 2em;
+  }
+
+  /*.profile-image {
+    max-width: 70%;
+    margin-top: 1.75em;
+    margin-bottom: 0.5em;
+    align-self: center;
   }*/
 
-  /*.nav-bottom: {
-    border-top-color: transparent;
-  }*/
+
 }
+
+
+
+
 
 
 
@@ -218,6 +248,11 @@ h3 {
 ========================================================================= */
 
 @media (min-width: 1024px) {
+
+  /*.nav-bottom: {
+    border-top-color: transparent;
+  }*/
+
 
 }
 
