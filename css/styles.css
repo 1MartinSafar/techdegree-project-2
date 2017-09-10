@@ -304,6 +304,8 @@ h3 {
     margin-top: 2em;
   }
 
+  /* NEW PROFILE IMAGE*/
+
   .items {
     display: flex;
     flex-direction: row;
@@ -366,6 +368,10 @@ h3 {
 ========================================================================= */
 
 @media (min-width: 1024px) {
+
+  .nav li {
+    margin-right: 1.1em;
+  }
 
   .profile-image {
     max-width: 45%;
