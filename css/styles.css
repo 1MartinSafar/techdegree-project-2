@@ -72,6 +72,8 @@ h3 {
   font-size: 1em;
   margin-top: 3em;
   margin-bottom: 1.5em;
+
+  margin-bottom: 0.5em;
 }
 
 .contact p:nth-child(n+3) {
@@ -116,14 +118,26 @@ h3 {
   font-size: 1.6em;
   padding: 0.5em;
   margin: 0.5em;
+
+  padding-bottom: 0;
 }
+
+
 
 /*.nav li:not([class="name"]) {
   background-color: white;
 }*/
 
-.nav li {
+/* changed from .nav li */
+.nav a {
   background-color: white;
+
+  padding: 0.5em;
+}
+
+.nav li {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .phone,
@@ -146,6 +160,8 @@ h3 {
   margin-top: 1.75em;
   margin-bottom: 0.5em;
   align-self: center;
+
+  margin-top: 1em;
 }
 
 .portfolio img {
@@ -163,6 +179,9 @@ h3 {
   margin-right: 0.5em;
   padding-top: 1.5em;
   padding-bottom: 1em;
+
+  padding-top: 0.3em;
+  padding-bottom: 0em;
 }
 
 .nav-old li,
@@ -241,6 +260,139 @@ h3 {
   max-width: 500px;
   /*align-self: center;*/
 }
+
+#skills {
+  margin-top: 2em;
+}
+
+#skills h1 {
+  padding-top: 2em;
+  margin-top: 0;
+
+  padding-bottom: 0em;
+}
+
+#skills h2 {
+  font-size: 2em;
+}
+
+#skills .html {
+  color: #0000FF;
+}
+.html-li li {
+  background-color: #0000FF;
+  background-color: #5757ff;
+}
+
+#skills .css {
+  color: #05EDFF;
+}
+.css-li li {
+  background-color: #05EDFF;
+  background-color: #25c6d1;
+}
+
+#skills .javascript {
+  color: #E00000 ;
+}
+.javascript-li li {
+  background-color: #E00000;
+  background-color: #e44a4a;
+}
+
+#skills p:first-line {
+  font-style: italic;
+}
+
+.skills-list li {
+  text-align: left;
+  list-style-type: decimal;
+  list-style-position: outside;
+}
+
+.skills-list:last-child {
+  margin-bottom: 3.5em;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-list ol {
+  padding-left: 0;
+  max-width: 80%;
+
+  max-width: 90%;
+}
+
+.skills-list li{
+    /*max-width: 90%;*/
+    /*background: #ddd;*/
+    /*background: #F0F0F0;*/
+
+    /*background: #1496BB;*/
+    /*background: #1cbdec;*/
+    border-radius: 10px;
+    list-style-position: inside;
+
+    /*color: #444;*/
+    color: white;
+    padding: 0.5em;
+
+    margin-bottom: 0.5em;
+}
+
+/* TESTING LINKS TRANSITIONS*/
+/*
+.nav:hover,
+.nav-old:hover,
+.nav-new:hover {
+  color: white;
+}*/
+
+/*.nav a,
+.nav-old a,
+.nav-new a {
+  display: block;
+}*/
+
+.nav a,
+.nav-new a {
+  /*display: block;*/
+  /*color: white;*/
+  padding: 0.5em;
+  border-radius: 10px;
+  transition-property: color, background, box-shadow;
+  /*transition-duration: .3s;*/
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
+.nav a:hover,
+.nav-new a:hover {
+  color: white;
+  background: rgba(74, 137, 202, 1);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.7);
+}
+
+/*.nav a:hover,
+.nav-old a:hover,
+.nav-new a:hover {
+  color: white;
+}*/
+
+.name {
+  margin-bottom: 0;
+}
+
+.nav li {
+  margin-top: 0.1em;
+}
+
 
 /* ======================================================================
                         TABLET Size: 768px Media Query
@@ -359,6 +511,18 @@ h3 {
 
   .nav-new li:nth-child(n+1) {
     margin-left: 1.5em;
+  }
+
+  .javascript {
+    margin-top: 2em;
+  }
+
+  .name {
+    margin-top: 1em;
+  }
+
+  .nav li {
+    margin-top: 0.4em;
   }
 
 }
@@ -484,6 +648,10 @@ h3 {
   .items {
     padding-left: 1em;
     padding-right: 0em;
+  }
+
+  .javascript {
+    margin-top: 1em;
   }
 
 
