@@ -209,6 +209,39 @@ h3 {
   justify-content: space-between
 }
 
+/* MAX-WIDTH FOR PARAGRAPHS */
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  /*min-width: 70%;*/
+  /*max-width: 500px;*/
+  /*align-self: center;*/
+  /*justify-content: center;*/
+}
+
+.nav li {
+  /*max-width: 500px;*/
+  /*align-self: center;*/
+  /*justify-content: center;*/
+}
+
+.introduction,
+.col,
+.contact
+ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro,
+.col p,
+.info {
+  max-width: 500px;
+  /*align-self: center;*/
+}
+
 /* ======================================================================
                         TABLET Size: 768px Media Query
 ========================================================================= */
@@ -244,11 +277,13 @@ h3 {
 
   .info {
     /*font-size: 100px;*/
-    width: 75%;
+    /*width: 75%;*/
     text-align: center;
     padding-top: 1em;
     /*align-self: center;*/
     /*background-color: lime;*/
+
+    max-width: 550px;
   }
 
   .contact p,
@@ -366,7 +401,8 @@ h3 {
     /*align-self: center;*/
 
     /*max-width: 50%;*/
-    width: 55%;
+
+    /*width: 55%;*/
 
     /*padding-left: 4%;*/
 
@@ -376,6 +412,10 @@ h3 {
     /*text-align: justify;*/
 
     max-width: 700px;
+
+    max-width: 600px;
+    padding-left: 2.5em;
+    margin-right: 0em;
     /*margin: 0 auto 30px;*/
   }
 
@@ -395,6 +435,13 @@ h3 {
     /*display: inline-block;*/
     align-self: center;
     max-width: 500px;
+
+    padding-left: 1em;
+    padding-right: 1em;
+
+    /*max-width: 300px;*/
+    /*background-color: lime;*/
+
     /*-webkit-margin-after: 0em;*/
     /*max-width: 400px;
     margin: 0;
