@@ -336,6 +336,9 @@ a {
   font-size: 0.86em;
   padding-left: 1.820em;
   padding-right: 1.820em;
+
+
+  max-width: 320px;
 }
 .contact p:nth-child(3) {
   padding-left: 0em;
@@ -481,6 +484,10 @@ a {
 
     padding-left: 3.5em;
     padding-right: 3.5em;
+
+
+    max-width: 313px;
+    max-width: 420px;
   }
   .introduction {
     margin-top: 2.75em;
@@ -622,6 +629,57 @@ a {
   .items {
     /*padding-left: 0;*/
     padding-right: 1em;
+  }
+
+
+  /* ADJUSTMENTS AFTER LINKING NORMALIZE.CSS (FORGOT TO LINK IT) */
+
+  #home {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  .main-header {
+    margin-top: 3.5em;
+  }
+  .main-header p {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .main-header ul {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .main-header li {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .introduction {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+  }
+  .intro {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .profile-image {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .portfolio h2 {
+    margin-top: 1em;
+  }
+  .portfolio p {
+    font-size: 0.86em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+
+    max-width: 320px;
+
+    max-width: 313px;
+    max-width: 420px;
+  }
+  #skills {
+    padding-bottom: 2em;
   }
 
 }
