@@ -321,6 +321,34 @@ a {
   color: rgb(74, 137, 202);
 }
 
+/* ADJUSTMENTS AFTER LINKING NORMALIZE.CSS (FORGOT TO LINK IT) */
+
+.portfolio p {
+  /*margin-left: 0.5em;*/
+  /*margin-right: 0.5em;*/
+
+  /*margin-left: 0.55em;*/
+  /*margin-right: 0.55em;*/
+
+  padding-left: 1.320em;
+  padding-right: 1.320em;
+
+  font-size: 0.86em;
+  padding-left: 1.820em;
+  padding-right: 1.820em;
+}
+.contact p:nth-child(3) {
+  padding-left: 0em;
+  padding-right: 1em;
+  /*background-color: lime;*/
+}
+.bottom-nav {
+  margin-bottom: 0.75em;
+
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
+
 /* ======================================================================
                         TABLET Size: 768px Media Query
 ========================================================================= */
