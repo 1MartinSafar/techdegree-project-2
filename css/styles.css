@@ -2,6 +2,19 @@
                         Base Styles (320px)
 ========================================================================= */
 
+/* INTERNET EXPLORER */
+
+.profile-image,
+.portfolio img {
+  flex-shrink: 0;
+}
+.intro,
+.info {
+  width: 320px;
+}
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -338,6 +351,18 @@ a {
 
 @media (min-width: 768px) {
 
+  /* INTERNET EXPLORER */
+  .intro {
+    width: 459.22px;
+  }
+  .info {
+    width: 550px;
+  }
+  #skills p {
+    width: 368px;
+  }
+
+
   .nav {
     display: flex;
     flex-direction: row;
@@ -490,12 +515,6 @@ a {
     margin-bottom: 0.8em;
   }
 
-  /* INTERNET EXPLORER */
-  .profile-image,
-  .portfolio img {
-    flex-shrink: 0;
-  }
-
 }
 
 /* ======================================================================
@@ -503,6 +522,19 @@ a {
 ========================================================================= */
 
 @media (min-width: 1024px) {
+
+  /* INTERNET EXPLORER */
+  .intro {
+    width: 459.22px;
+  }
+  #skills p {
+    width: 310px;
+  }
+  .portfolio p {
+    width: 313.59px;
+  }
+
+
 
   .nav li {
     margin-right: 1.1em;
