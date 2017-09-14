@@ -132,7 +132,7 @@ a {
 }
 
 .portfolio img {
-  max-width: 90%;
+  max-width: 288px;
 }
 
 /* BOTTOM NAV */
@@ -146,20 +146,13 @@ a {
   padding-bottom: 0em;
 }
 
-.nav-old li,
-.nav-new li {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.nav-old ul,
-.nav-new ul {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
 .nav-old,
-.nav-new {
+.nav-new,
+.nav-old li,
+.nav-new li,
+.nav-old ul,
+.nav-new ul
+ {
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -324,30 +317,17 @@ a {
 /* ADJUSTMENTS AFTER LINKING NORMALIZE.CSS (FORGOT TO LINK IT) */
 
 .portfolio p {
-  /*margin-left: 0.5em;*/
-  /*margin-right: 0.5em;*/
-
-  /*margin-left: 0.55em;*/
-  /*margin-right: 0.55em;*/
-
-  padding-left: 1.320em;
-  padding-right: 1.320em;
-
   font-size: 0.86em;
   padding-left: 1.820em;
   padding-right: 1.820em;
-
-
   max-width: 320px;
 }
 .contact p:nth-child(3) {
   padding-left: 0em;
   padding-right: 1em;
-  /*background-color: lime;*/
 }
 .bottom-nav {
   margin-bottom: 0.75em;
-
   margin-left: 0.75em;
   margin-right: 0.75em;
 }
@@ -472,21 +452,9 @@ a {
   /* ADJUSTMENTS AFTER LINKING NORMALIZE.CSS (FORGOT TO LINK IT) */
 
   .portfolio p {
-    /*margin-left: 0.5em;*/
-    /*margin-right: 0.5em;*/
-
-    /*margin-left: 0.55em;*/
-    /*margin-right: 0.55em;*/
-
     font-size: 0.86em;
-    padding-left: 1.820em;
-    padding-right: 1.820em;
-
     padding-left: 3.5em;
     padding-right: 3.5em;
-
-
-    max-width: 313px;
     max-width: 420px;
   }
   .introduction {
@@ -494,16 +462,10 @@ a {
     margin-bottom: 2.75em;
   }
   .intro {
-    padding-top: 0;
-
     margin-top: 0;
     margin-bottom: 3em;
     padding-top: 0;
     padding-bottom: 0;
-
-    /*vertical-align: center;*/
-    padding-right: 1.5em;
-
     padding-right: 1.25em;
   }
   .profile-image {
@@ -522,7 +484,6 @@ a {
     padding-bottom: 3.15em;
   }
   #skills {
-    /*margin-top: 2.67em;*/
     padding-top: 0.67em;
   }
   .contact h3 {
@@ -627,7 +588,6 @@ a {
   }
 
   .items {
-    /*padding-left: 0;*/
     padding-right: 1em;
   }
 
@@ -641,14 +601,8 @@ a {
   .main-header {
     margin-top: 3.5em;
   }
-  .main-header p {
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .main-header ul {
-    padding-top: 0;
-    margin-top: 0;
-  }
+  .main-header p,
+  .main-header ul,
   .main-header li {
     padding-top: 0;
     margin-top: 0;
@@ -657,10 +611,7 @@ a {
     margin-top: 2em;
     margin-bottom: 0.5em;
   }
-  .intro {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+  .intro,
   .profile-image {
     margin-top: 0;
     margin-bottom: 0;
@@ -672,10 +623,6 @@ a {
     font-size: 0.86em;
     padding-left: 1.5em;
     padding-right: 1.5em;
-
-    max-width: 320px;
-
-    max-width: 313px;
     max-width: 420px;
   }
   #skills {
